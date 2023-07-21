@@ -1,0 +1,29 @@
+body {
+    background-color: green;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+    font-size: 4rem;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#btn-container {
+    text-align: center;
+}
+
+button {
+    background-color: goldenrod;
+    color: green;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
