@@ -2,8 +2,8 @@ let sumEl = document.getElementById("sum-el");
 let cardEl = document.getElementById("card-el");
 let titleEl = document.getElementById("title-el");
 
-let num1 =  Math.floor(Math.random() * 12);
-let num2 =  Math.floor(Math.random() * 12);
+let num1 =  getRandomCardFromDeck();
+let num2 =  getRandomCardFromDeck();
 let sum = num1 + num2;
 let textSum = num1 + " " + num2;
 
@@ -20,9 +20,13 @@ function startGame() {
 }
 
 function newCard() {
-    let num = Math.floor(Math.random() * 12);
+    let num = getRandomCardFromDeck();
     console.log(num);
     textSum = textSum + " " + num;
     sum += num;
     startGame();
+}
+
+function getRandomCardFromDeck() {
+    return Math.floor(Math.random() * 10) + 2;
 }
