@@ -23,7 +23,8 @@ p {
 button {
     background-color: goldenrod;
     color: green;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
 }
